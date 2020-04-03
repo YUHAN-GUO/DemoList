@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.think.guoyh.ui.mine.MineFragment">
+
+
+    <com.base.gyh.baselib.widgets.view.RoundImageView
+        android:id="@+id/mine_heard"
+        android:layout_width="@dimen/dp_70"
+        android:layout_height="@dimen/dp_70"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        app:roundRadios="@dimen/dp_5"
+        app:ImageType="round"
+        android:src="@drawable/welcome"
+        app:layout_constraintCircleRadius="@dimen/dp_130"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

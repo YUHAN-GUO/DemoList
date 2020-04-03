@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/read_bookDraw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.demo.function.textread.TextReadActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/read_bookLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.think.guoyh.widget.page.PageView
+            android:visibility="visible"
+            android:id="@+id/read_bookPage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/read_bookBottomMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_blue"
+            android:gravity="center"
+            android:visibility="visible"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:id="@+id/read_bookLightLayout"
+                android:padding="@dimen/dp_6"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.AppCompatSeekBar
+                    android:id="@+id/read_bookMenu_light_SeekBar"
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:max="255"
+                    android:progressDrawable="@drawable/seekbar_bg"
+                    android:minHeight="@dimen/dp_3"
+                    android:maxHeight="@dimen/dp_3"
+                    android:thumb="@drawable/seekbar_thumb"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:id="@+id/read_bookMenu_light_img"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/ic_menu_mode_night_normal"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/color_white"
+                android:layout_height="@dimen/dp_0_5"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <TextView
+                    android:paddingTop="@dimen/dp_8"
+                    android:paddingBottom="@dimen/dp_8"
+                    android:id="@+id/read_bookMulu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/arrow_up"
+                    android:gravity="center"
+                    android:text="目录"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/sp_15" />
+
+                <View
+                    android:layout_width="@dimen/dp_0_5"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_EDEDED" />
+
+                <TextView
+                    android:id="@+id/read_bookLiang"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/arrow_up"
+                    android:gravity="center"
+                    android:text="亮度"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/sp_15" />
+
+                <View
+                    android:layout_width="@dimen/dp_0_5"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_EDEDED" />
+
+                <TextView
+                    android:id="@+id/read_bookHuan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/arrow_up"
+                    android:gravity="center"
+                    android:text="缓存"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/sp_15" />
+
+                <View
+                    android:layout_width="@dimen/dp_0_5"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_EDEDED" />
+
+                <TextView
+                    android:id="@+id/read_bookSet"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/arrow_up"
+                    android:gravity="center"
+                    android:text="设置"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/sp_15" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:paddingTop="@dimen/statusbar_view_height"
+            android:id="@+id/read_bookTopMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_blue"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" >
+
+            <ImageView
+                android:id="@+id/read_bookBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/ic_arrow_back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/read_bookTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="明日之后"
+                android:textSize="@dimen/sp_17"
+                android:textColor="@color/color_white"
+                app:layout_constraintBottom_toBottomOf="@+id/read_bookBack"
+                app:layout_constraintStart_toEndOf="@+id/read_bookBack"
+                app:layout_constraintTop_toTopOf="@+id/read_bookBack" />
+        </android.support.constraint.ConstraintLayout>
+        </android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="@dimen/dp_270"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/color_white"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/statusbar_view_height">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_16"
+            android:text="目录"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/sp_15" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/read_bookRlv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

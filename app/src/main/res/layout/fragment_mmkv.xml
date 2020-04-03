@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.demo.function.mmkv.MMKVFragment">
+
+    <com.think.guoyh.widget.ShapeTextView
+        android:layout_width="match_parent"
+        android:padding="@dimen/dp_16"
+        app:start_color="@color/colorPrimary"
+        android:textColor="@color/color_white"
+        android:text="初始化 MMKV.initialize(this); 在Application"
+        app:radius_sizeTv="@dimen/dp_16"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_height="wrap_content"/>
+
+    <com.think.guoyh.widget.ShapeButton
+        android:id="@+id/mmkv_setName"
+        android:layout_width="match_parent"
+        android:padding="@dimen/dp_16"
+        android:text="点我存储 姓名"
+        android:layout_height="wrap_content"/>
+    <com.think.guoyh.widget.ShapeButton
+        android:id="@+id/mmkv_setOld"
+        android:layout_width="match_parent"
+        android:text="点我存储 年龄"
+        android:padding="@dimen/dp_16"
+
+        android:layout_height="wrap_content"/>
+    <com.think.guoyh.widget.ShapeButton
+        android:id="@+id/mmkv_setSex"
+        android:layout_width="match_parent"
+        android:text="点我存储 性别"
+        android:padding="@dimen/dp_16"
+        android:layout_height="wrap_content"/>
+    <com.think.guoyh.widget.ShapeButton
+        android:id="@+id/mmkv_getName"
+
+        android:layout_width="match_parent"
+        android:padding="@dimen/dp_16"
+        android:text="点我获取 姓名"
+        android:layout_height="wrap_content"/>
+    <com.think.guoyh.widget.ShapeButton
+        android:id="@+id/mmkv_getOld"
+        android:padding="@dimen/dp_16"
+
+        android:layout_width="match_parent"
+        android:text="点我获取 年龄"
+        android:layout_height="wrap_content"/>
+
+    <com.think.guoyh.widget.ShapeButton
+        android:id="@+id/mmkv_getSex"
+        android:padding="@dimen/dp_16"
+        android:layout_width="match_parent"
+        android:text="是否为男"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".ui.demo.function.save.SaveFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.think.guoyh.widget.ShapeButton
+        android:id="@+id/saveBt"
+        android:layout_width="match_parent"
+        android:text="直接保存网络图片"
+        android:layout_height="@dimen/dp_35"/>
+
+    <com.think.guoyh.widget.ShapeButton
+        android:id="@+id/saveBt2"
+        android:layout_width="match_parent"
+        android:text="1.将网络图片转为bitMap,2保存BitMap图片(保存到图库)"
+        android:layout_height="@dimen/dp_35"/>
+
+    <com.think.guoyh.widget.ShapeButton
+        android:id="@+id/saveBt3"
+        android:layout_width="match_parent"
+        android:text="1.将网络图片转为bitMap,2保存BitMap图片(保存到相机)"
+        android:layout_height="@dimen/dp_35"/>
+
+    <ImageView
+        android:layout_marginTop="@dimen/dp_16"
+        android:id="@+id/saveImg"
+        android:layout_width="@dimen/dp_75"
+        android:layout_height="@dimen/dp_75"/>
+</LinearLayout>

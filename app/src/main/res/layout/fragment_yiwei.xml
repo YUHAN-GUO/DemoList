@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.suan.yiwei.YiweiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.think.guoyh.widget.ShapeTextView
+        android:textSize="@dimen/sp_16"
+        android:gravity="left"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="判断是否为异位词，条件：\n给定两个字符串s1,s2,如果s1和s2中出现的字符种类和字符次数一样多，则s1和s2互为变形词(异位词)，实现函数判断两个字符串是否为变形词（异位词）\n 【例如】\n   s1=”123”,s2=”321” ,return true;\n   s1=”123”,s2=”2113”,return false;" />
+
+    <EditText
+        android:layout_marginLeft="@dimen/dp_32"
+        android:layout_marginRight="@dimen/dp_32"
+        android:id="@+id/yiwei_s1"
+        android:hint="请输入字符串1"
+        android:text="aabdcdeef"
+        android:layout_marginTop="@dimen/dp_56"
+        android:paddingTop="@dimen/dp_4"
+        android:paddingBottom="@dimen/dp_4"
+        android:textSize="@dimen/sp_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"/>
+    <EditText
+        android:layout_marginLeft="@dimen/dp_32"
+        android:layout_marginRight="@dimen/dp_32"
+        android:id="@+id/yiwei_s2"
+        android:hint="请输入字符串2"
+        android:text="abeefdcda"
+        android:textSize="@dimen/sp_15"
+        android:layout_marginTop="@dimen/dp_16"
+        android:paddingTop="@dimen/dp_4"
+        android:paddingBottom="@dimen/dp_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"/>
+
+    <com.think.guoyh.widget.ShapeButton
+        android:layout_marginTop="@dimen/dp_24"
+        android:id="@+id/yiwei_Bt"
+        android:text="点我进行判断"
+        android:layout_marginLeft="@dimen/dp_56"
+        android:layout_marginRight="@dimen/dp_56"
+        app:normal_color="@color/colorPrimary"
+        app:radius_sizeBt="@dimen/dp_8"
+        android:textColor="@color/color_white"
+        android:paddingTop="@dimen/dp_8"
+        android:paddingBottom="@dimen/dp_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.think.guoyh.widget.ShapeTextView
+        android:id="@+id/yiwei_jie"
+        android:layout_marginTop="@dimen/dp_24"
+        android:text="结果"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

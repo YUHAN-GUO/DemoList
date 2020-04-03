@@ -1,0 +1,5 @@
+include ':app', ':baselib', ':dkplayer-videocache', ':dkplayer-java', ':fingerfollowlayout'
+include 'dkplayer-players:ijk'
+include 'dkplayer-players:exo'
+include 'dkplayer-players:thunder'
+rootProject.name='MyDemoList'

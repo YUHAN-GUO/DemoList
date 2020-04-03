@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_222222">#222222</color>
+    <color name="color1">#FF3644</color><!-- bottom bar title color -->
+    <color name="color2">#333333</color> <!-- list item title text --><!-- toolbar title color -->
+    <color name="color2_night">#BBBBBB</color>
+    <color name="color3">#666666</color>
+    <color name="color3_night">#999999</color>
+    <color name="color4">#999999</color>
+    <color name="color4_night">#666666</color>
+    <color name="color5">#BBBBBB</color> <!-- list item descripe & sub title text color-->
+    <color name="color5_night">#333333</color>
+    <color name="color6">#EEEEEE</color> <!-- divider line color -->
+    <color name="color6_night">#474747</color>
+    <color name="color7">#F5F5F5</color> <!-- img default color--> <!-- about us bg color-->
+    <color name="color7_night">#191919</color>
+    <color name="color8">#FAFAFA</color> <!-- btn pressed color -->
+    <color name="color8_night">#2D2D2D</color>
+    <color name="color9">@color/white</color><!-- 白色 -->
+    <color name="color9_night">#232323</color>
+    <color name="color10">#5A9BF5</color>
+    <color name="color11">#FFAF0F</color>
+    <color name="color12">#64C800</color>
+    <color name="color13">#DD3A38</color>
+    <color name="color14">#cd3228</color>
+
+    <color name="color_40">#40000000</color>
+    <color name="color_80">#80000000</color>
+    <color name="btime_transparent_10percent">#1A000000</color>
+    <color name="btime_transparent_30percent">#4D000000</color>
+    <color name="btime_transparent_40percent">#66000000</color>
+    <color name="btime_transparent_50percent">#80000000</color>
+    <color name="btime_transparent_60percent">#99000000</color>
+    <color name="btime_transparent_70percent">#B3000000</color>
+    <color name="btime_transparent_80percent">#CC000000</color>
+    <color name="btime_transparent_00percent">#00000000</color>
+
+
+
+    <!--read-->
+    <color name="nb_read_bg_1">#EFEFF7</color>
+    <color name="nb_read_bg_2">#CCEBCC</color>
+    <color name="nb_read_bg_4">#CEC29C</color>
+    <color name="nb_read_bg_5">#001C27</color>
+    <color name="nb_read_bg_6">#DDCEC29C</color>
+
+
+    <color name="nb_read_font_1">#383429</color>
+    <color name="nb_read_font_2">#2F332D</color>
+    <color name="nb_read_font_3">#92918C</color>
+    <color name="nb_read_font_4">#2C2C2C</color>
+    <color name="nb_read_font_5">#627176</color>
+
+    <color name="nb_read_bg_night">#000000</color>
+    <color name="nb_read_font_night">#99ffffff</color>
+
+    <color name="dkplayer_theme_color">#39C5BB</color>
+    <color name="dkplayer_theme_color_translucent">#9939C5BB</color>
+    <color name="dkplayer_background_color">#4D000000</color>
+</resources>

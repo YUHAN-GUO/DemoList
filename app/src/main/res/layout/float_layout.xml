@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_120"
+    android:layout_height="wrap_content"
+    android:id="@+id/float_moveLayout"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+        <com.base.gyh.baselib.widgets.view.RoundImageView
+            app:roundRadios="16dp"
+            app:ImageType="circle"
+            android:layout_width="@dimen/dp_90"
+            android:layout_height="@dimen/dp_90"
+            android:src="@mipmap/bg_splash" />
+
+        <com.think.guoyh.widget.ShapeTextView
+            android:layout_width="wrap_content"
+            app:start_color="@color/transparent"
+            android:layout_height="wrap_content"
+            android:text="可以浮动的MoveLayout" />
+</LinearLayout>

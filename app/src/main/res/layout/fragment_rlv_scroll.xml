@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.demo.function.rlvscroll.RlvScrollFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_rvhuadong_GuanXing_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="惯性随机滑动"
+            android:textColor="#494949"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_rvhuadong_GuanXing_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="惯性滑动到20"
+            android:textColor="#494949"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_rvhuadong_GuanXing_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="惯性滑动到99"
+            android:textColor="#494949"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_rvhuadong_ShanXian_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="随机闪现"
+            android:textColor="#494949"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_rvhuadong_ShanXian_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="闪现到20"
+            android:textColor="#494949"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_rvhuadong_ShanXian_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="闪现到99"
+            android:textColor="#494949"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_rvhuadong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.demo.function.button.ButtonFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="@dimen/dp_6"
+        android:paddingBottom="@dimen/dp_6"
+        android:text="这个是原生TextView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这个是原生的Button" />
+
+
+    <com.think.guoyh.widget.ShapeButton
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:text="ShapeButton"
+        android:textColor="@color/color_white"
+        app:normal_color="@color/colorPrimary"
+        app:pressed_color="#3A000000"
+        app:radius_sizeBt="@dimen/dp_30" />
+
+    <com.think.guoyh.widget.ShapeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:text="ShpaeTextView"
+        android:textColor="@color/color_white"
+        app:center_color="@color/colorPrimary"
+        app:end_color="@color/color_black"
+        app:radius_sizeTv="@dimen/dp_30"
+        app:shapeTv_Orientation="RIGHT_LEFT"
+        app:start_color="@color/color_blue" />
+
+    <com.think.guoyh.widget.rip.RippleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        app:rippleColor="#3A000000"
+        app:rippleStyle="borderless">
+        <com.base.gyh.baselib.widgets.view.RoundImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:roundRadios="@dimen/dp_5"
+            android:scaleType="fitCenter"
+            android:src="@drawable/welcome"
+            app:ImageType="circle"
+            android:focusable="true"
+            android:clickable="true"
+            />
+
+    </com.think.guoyh.widget.rip.RippleLayout>
+
+    <com.base.gyh.baselib.widgets.view.RoundImageView
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginTop="@dimen/dp_8"
+        android:src="@drawable/welcome"
+        app:roundRadios="@dimen/dp_16"
+        app:ImageType="round"
+        />
+    <com.think.guoyh.widget.rip.RippleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        app:rippleColor="#3A000000"
+        app:rippleStyle="borderless">
+    <ImageView
+        android:layout_width="80dp"
+        android:scaleType="centerCrop"
+        android:layout_height="120dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="@dimen/dp_8"
+        android:background="@drawable/welcome"
+        />
+    </com.think.guoyh.widget.rip.RippleLayout>
+
+    <com.think.guoyh.widget.rip.RippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rippleColor="#3A000000"
+        app:rippleStyle="borderless"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/color_white"
+            android:layout_height="@dimen/dp_160">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:background="@drawable/welcome"
+                />
+            <com.think.guoyh.widget.ShapeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:text="ShpaeTextView"
+                android:textColor="@color/color_white"
+                app:center_color="@color/colorPrimary"
+                app:end_color="@color/color_black"
+                app:radius_sizeTv="@dimen/dp_30"
+                app:shapeTv_Orientation="RIGHT_LEFT"
+                app:start_color="@color/color_blue" />
+        </LinearLayout>
+
+    </com.think.guoyh.widget.rip.RippleLayout>
+</LinearLayout>

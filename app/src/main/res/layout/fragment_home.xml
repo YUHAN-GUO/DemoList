@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.think.guoyh.ui.home.HomeFragment">
+
+  <include layout="@layout/status_bar"/>
+
+  <com.base.gyh.baselib.widgets.view.tab.SegmentTabLayout
+      android:layout_marginTop="@dimen/dp_8"
+      android:id="@+id/home_tab"
+      android:layout_width="wrap_content"
+      android:layout_height="32dp"
+      android:layout_gravity="center_horizontal"
+      android:paddingLeft="10dp"
+      android:paddingRight="10dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:tl_bar_end_color="#FFDF96"
+      app:tl_bar_start_color="#FFDF96"
+      app:tl_bar_stroke_color="@color/color_tran"
+      app:tl_indicator_anim_enable="true"
+      app:tl_indicator_bounce_enable="false"
+      app:tl_indicator_color="@color/cp_color_gray_deep"
+      app:tl_tab_padding="20dp"
+      app:tl_textsize="@dimen/sp_15"
+      app:tl_textUnSelectsize="@dimen/sp_16"
+      app:tl_textSelectColor="@color/color_white"
+      app:tl_textUnselectColor="@color/color_white" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

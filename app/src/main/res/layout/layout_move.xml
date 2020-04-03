@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.think.guoyh.widget.movelayout.MoveLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/moveLayout"
+    android:layout_width="@dimen/dp_120"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.base.gyh.baselib.widgets.view.RoundImageView
+        app:roundRadios="16dp"
+        android:layout_width="@dimen/dp_90"
+        android:layout_height="@dimen/dp_90"
+        android:src="@mipmap/bg_splash" />
+
+    <com.think.guoyh.widget.ShapeTextView
+        app:start_color="@color/cp_color_gray_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="可以移动的MoveLayout\n点击打开悬浮权限" />
+
+    <com.think.guoyh.widget.ShapeTextView
+        android:id="@+id/closeFloat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击关闭悬浮" />
+</com.think.guoyh.widget.movelayout.MoveLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.demo.function.move.MoveFragment">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/move_webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <com.think.guoyh.widget.movelayout.MoveLayout
+        android:id="@+id/moveLayout"
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.base.gyh.baselib.widgets.view.RoundImageView
+            android:layout_width="@dimen/dp_90"
+            android:layout_height="@dimen/dp_90"
+            android:src="@mipmap/bg_splash"
+            app:roundRadios="16dp" />
+
+        <com.think.guoyh.widget.ShapeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="可以移动的MoveLayout\n点击打开悬浮权限"
+            app:start_color="@color/cp_color_gray_light" />
+
+        <com.think.guoyh.widget.ShapeTextView
+            android:id="@+id/closeFloat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击关闭悬浮" />
+    </com.think.guoyh.widget.movelayout.MoveLayout>
+
+    <com.ulfy.android.controls.FingerFollowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        app:action_mode="auto_attach_side">
+
+        <TextView
+            android:layout_width="@dimen/dp_56"
+            android:layout_height="@dimen/dp_56"
+            android:layout_margin="@dimen/dp_16"
+            android:background="@color/color_blue" />
+
+    </com.ulfy.android.controls.FingerFollowLayout>
+
+</FrameLayout>

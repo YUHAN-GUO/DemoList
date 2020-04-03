@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_36"
+        android:id="@+id/pop_cahce_bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="缓存后面五十章"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/sp_17" />
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_16"
+        android:id="@+id/pop_cahce_bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="缓存后面全部章节"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/sp_17" />
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginBottom="@dimen/dp_36"
+        android:id="@+id/pop_cahce_bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="缓存所有章节"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/sp_17" />
+
+</LinearLayout>

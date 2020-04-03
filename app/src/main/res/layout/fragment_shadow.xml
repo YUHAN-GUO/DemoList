@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.demo.function.shadow.ShadowFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <com.think.guoyh.ui.demo.function.shadow.FpShadowLayout
+            app:fp_round_corner="fp_corner_all"
+            app:fp_shadowColor="#fbb7b7"
+            app:fp_shadowRadius="10dp"
+            app:fp_shadowRoundRadius="15dp"
+            app:fp_shadowShape="fp_round_rectangle"
+            app:fp_shadowSide="fp_all"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"></RelativeLayout>
+
+        </com.think.guoyh.ui.demo.function.shadow.FpShadowLayout>
+
+        <com.think.guoyh.ui.demo.function.shadow.FpShadowLayout
+            app:fp_round_corner="fp_corner_rightTop|fp_corner_leftTop"
+            app:fp_shadowColor="#FF1493"
+            app:fp_shadowRadius="10dp"
+            app:fp_shadowRoundRadius="15dp"
+            app:fp_shadowShape="fp_round_rectangle"
+            app:fp_shadowSide="fp_all"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"></RelativeLayout>
+
+        </com.think.guoyh.ui.demo.function.shadow.FpShadowLayout>
+
+        <com.think.guoyh.ui.demo.function.shadow.FpShadowLayout
+            app:fp_round_corner="fp_corner_leftTop|fp_corner_rightBottom"
+            app:fp_shadowColor="#FF00FF"
+            app:fp_shadowRadius="10dp"
+            app:fp_shadowRoundRadius="15dp"
+            app:fp_shadowShape="fp_round_rectangle"
+            app:fp_shadowSide="fp_all"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"></RelativeLayout>
+
+        </com.think.guoyh.ui.demo.function.shadow.FpShadowLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <com.think.guoyh.ui.demo.function.shadow.FpShadowLayout
+            app:fp_round_corner="fp_corner_leftTop"
+            app:fp_shadowColor="#800080"
+            app:fp_shadowRadius="10dp"
+            app:fp_shadowRoundRadius="15dp"
+            app:fp_shadowShape="fp_round_rectangle"
+            app:fp_shadowSide="fp_top"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"></RelativeLayout>
+
+        </com.think.guoyh.ui.demo.function.shadow.FpShadowLayout>
+
+        <com.think.guoyh.ui.demo.function.shadow.FpShadowLayout
+            app:fp_round_corner="fp_corner_rightTop"
+            app:fp_shadowColor="#8A2BE2"
+            app:fp_shadowRadius="10dp"
+            app:fp_shadowRoundRadius="15dp"
+            app:fp_shadowShape="fp_round_rectangle"
+            app:fp_shadowSide="fp_top"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"></RelativeLayout>
+
+        </com.think.guoyh.ui.demo.function.shadow.FpShadowLayout>
+
+        <com.think.guoyh.ui.demo.function.shadow.FpShadowLayout
+            app:fp_round_corner="fp_corner_all"
+            app:fp_shadowColor="#FF00FF"
+            app:fp_shadowRadius="10dp"
+            app:fp_shadowRoundRadius="15dp"
+            app:fp_shadowShape="fp_round_rectangle"
+            app:fp_shadowSide="fp_left|fp_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"></RelativeLayout>
+
+        </com.think.guoyh.ui.demo.function.shadow.FpShadowLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <com.think.guoyh.ui.demo.function.shadow.FpShadowLayout
+            app:fp_round_corner="fp_corner_rightTop|fp_corner_leftBottom"
+            app:fp_shadowColor="#FF00FF"
+            app:fp_shadowRadius="10dp"
+            app:fp_shadowRoundRadius="15dp"
+            app:fp_shadowShape="fp_round_rectangle"
+            app:fp_shadowSide="fp_left|fp_right|fp_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/colorPrimary"
+                android:padding="50dp"></RelativeLayout>
+
+        </com.think.guoyh.ui.demo.function.shadow.FpShadowLayout>
+
+        <com.think.guoyh.ui.demo.function.shadow.FpShadowLayout
+            app:fp_round_corner="fp_corner_rightTop|fp_corner_leftBottom"
+            app:fp_shadowColor="#FF00FF"
+            app:fp_shadowRadius="10dp"
+            app:fp_shadowRoundRadius="15dp"
+            app:fp_shadowShape="fp_round_rectangle"
+            app:fp_shadowSide="fp_left|fp_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/colorPrimary"
+                android:padding="50dp"></RelativeLayout>
+
+        </com.think.guoyh.ui.demo.function.shadow.FpShadowLayout>
+
+        <com.think.guoyh.ui.demo.function.shadow.FpShadowLayout
+            app:fp_round_corner="fp_corner_rightBottom"
+            app:fp_shadowColor="#FF00FF"
+            app:fp_shadowRadius="10dp"
+            app:fp_shadowRoundRadius="15dp"
+            app:fp_shadowShape="fp_round_rectangle"
+            app:fp_shadowSide="fp_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/colorPrimary"
+                android:padding="50dp"></RelativeLayout>
+        </com.think.guoyh.ui.demo.function.shadow.FpShadowLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.think.guoyh.ui.demo.function.shadow.FpShadowLayout
+            app:fp_shadowColor="#FF00FF"
+            app:fp_shadowRadius="10dp"
+            app:fp_shadowShape="fp_rectangle"
+            app:fp_shadowSide="fp_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FF00FF"
+                android:padding="50dp"></RelativeLayout>
+
+        </com.think.guoyh.ui.demo.function.shadow.FpShadowLayout>
+
+        <com.think.guoyh.ui.demo.function.shadow.FpShadowLayout
+            app:fp_shadowColor="#FF00FF"
+            app:fp_shadowRadius="10dp"
+            app:fp_shadowShape="fp_rectangle"
+            app:fp_shadowSide="fp_top|fp_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/colorAccent"
+                android:padding="50dp"></RelativeLayout>
+
+        </com.think.guoyh.ui.demo.function.shadow.FpShadowLayout>
+
+        <com.think.guoyh.ui.demo.function.shadow.FpShadowLayout
+            app:fp_shadowColor="#FF00FF"
+            app:fp_shadowRadius="10dp"
+            app:fp_shadowShape="fp_rectangle"
+            app:fp_shadowSide="fp_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/colorAccent"
+                android:padding="50dp"></RelativeLayout>
+
+        </com.think.guoyh.ui.demo.function.shadow.FpShadowLayout>
+    </LinearLayout>
+</LinearLayout>

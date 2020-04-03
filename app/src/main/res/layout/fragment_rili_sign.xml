@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.demo.function.rilisign.RiliSignFragment">
+
+    <TextView
+        android:id="@+id/signTv"
+        android:paddingBottom="@dimen/dp_8"
+        android:paddingTop="@dimen/dp_8"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_sign_week"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_sign_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.think.guoyh.widget.ShapeButton
+        android:id="@+id/signBt"
+        android:layout_marginTop="@dimen/dp_16"
+        android:text="签到"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

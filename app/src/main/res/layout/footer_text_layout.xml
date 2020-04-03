@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/footer_title"
+        android:text="footer_title"
+        android:padding="@dimen/dp_16"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/sp_15"
+        android:lineSpacingExtra="@dimen/dp_1_5"
+        android:layout_width="match_parent"
+        android:letterSpacing="0.1"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dp_90"/>
+
+    <com.think.guoyh.widget.ShapeButton
+        android:layout_marginTop="@dimen/dp_8"
+        android:id="@+id/footer_read"
+        android:layout_width="match_parent"
+        android:text="开始阅读"
+        app:normal_color="@color/color_EDEDED"
+        android:paddingTop="@dimen/dp_8"
+        android:paddingBottom="@dimen/dp_8"
+        app:pressed_color="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
