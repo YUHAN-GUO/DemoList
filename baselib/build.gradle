@@ -84,7 +84,6 @@ dependencies {
     api 'com.lcodecorex:tkrefreshlayout:1.0.7'
 //    api  'cn.yc:YCStateLib:1.1.6'
     //LoadingAnim
-    api 'com.example.mzy.indicators:LoadingAnimations:1.0.3'
     api 'com.zyao89:zloading:1.2.0'
     // 流式布局
     api 'com.google.android:flexbox:1.0.0'

@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/dkplayer-players/thunder" />
             <option value="$PROJECT_DIR$/dkplayer-videocache" />
             <option value="$PROJECT_DIR$/fingerfollowlayout" />
+            <option value="$PROJECT_DIR$/loadanim" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

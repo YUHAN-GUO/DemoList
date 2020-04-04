@@ -14,6 +14,7 @@ import com.think.guoyh.ui.demo.function.button.ButtonFragment;
 import com.think.guoyh.ui.demo.function.coord.CoordFragment;
 import com.think.guoyh.ui.demo.function.encry.EncryFragment;
 import com.think.guoyh.ui.demo.function.index.IndexFragment;
+import com.think.guoyh.ui.demo.function.loadinganim.LoadAnimFragment;
 import com.think.guoyh.ui.demo.function.mmkv.MMKVFragment;
 import com.think.guoyh.ui.demo.function.move.MoveFragment;
 import com.think.guoyh.ui.demo.function.process.ProcessFragment;
@@ -102,6 +103,10 @@ public class DemoActivity extends MyBaseActivity {
         RlvScrollFragment rlvScrollFragment = new RlvScrollFragment();//15
         fragments.add(rlvScrollFragment);
 
+
+        LoadAnimFragment loadAnimFragment = new LoadAnimFragment();//16
+        fragments.add(loadAnimFragment);
+
         MyFragmentVPAdapter vpAdapter = new MyFragmentVPAdapter(getSupportFragmentManager(), fragments);
         demoVp.setAdapter(vpAdapter);
     }
@@ -121,9 +126,6 @@ public class DemoActivity extends MyBaseActivity {
             case Const.GuoDemo.IndexDemo:
                 showPosition(3);
                 break;
-//            case Const.GuoDemo.AliDemo:
-//                showPosition(4);
-//                break;
             case Const.GuoDemo.ProcessDemo:
                 showPosition(4);
                 break;
@@ -156,6 +158,9 @@ public class DemoActivity extends MyBaseActivity {
                 break;
             case Const.GuoDemo.RlvScrollDemo:
                 showPosition(14);
+                break;
+            case Const.GuoDemo.LoadAnimDemo:
+                showPosition(15);
                 break;
         }
     }
