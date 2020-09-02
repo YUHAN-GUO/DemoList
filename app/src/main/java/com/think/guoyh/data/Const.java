@@ -24,6 +24,7 @@ public interface Const {
         int SecondTaoDemo = 14;
         int RlvScrollDemo = 15;
         int LoadAnimDemo = 16;
+        int CountDownDemo = 17;
     }
 
     interface SuanDemo {

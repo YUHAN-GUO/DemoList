@@ -12,6 +12,7 @@ import com.think.guoyh.base.MyBaseActivity;
 import com.think.guoyh.data.Const;
 import com.think.guoyh.ui.demo.function.button.ButtonFragment;
 import com.think.guoyh.ui.demo.function.coord.CoordFragment;
+import com.think.guoyh.ui.demo.function.countdown.CountDowmFragment;
 import com.think.guoyh.ui.demo.function.encry.EncryFragment;
 import com.think.guoyh.ui.demo.function.index.IndexFragment;
 import com.think.guoyh.ui.demo.function.loadinganim.LoadAnimFragment;
@@ -67,45 +68,44 @@ public class DemoActivity extends MyBaseActivity {
         IndexFragment indexFragment = new IndexFragment();//3
         fragments.add(indexFragment);
 
-//        AlireFragment alireFragment = new AlireFragment();//4
-//        fragments.add(alireFragment);
-
-        ProcessFragment processFragment = new ProcessFragment();//5
+        ProcessFragment processFragment = new ProcessFragment();//4
         fragments.add(processFragment);
 
-        SaveFragment saveFragment = new SaveFragment();//6
+        SaveFragment saveFragment = new SaveFragment();//5
         fragments.add(saveFragment);
 
-        SendNotifactionFragment sendNotifactionFragment = new SendNotifactionFragment();//7
+        SendNotifactionFragment sendNotifactionFragment = new SendNotifactionFragment();//6
         fragments.add(sendNotifactionFragment);
 
-        RiliSignFragment riliSignFragment = new RiliSignFragment();//8
+        RiliSignFragment riliSignFragment = new RiliSignFragment();//7
         fragments.add(riliSignFragment);
 
-        ShadowFragment shadowFragment = new ShadowFragment();//9
+        ShadowFragment shadowFragment = new ShadowFragment();//8
         fragments.add(shadowFragment);
 
-        MMKVFragment mmkvFragment = new MMKVFragment();//10
+        MMKVFragment mmkvFragment = new MMKVFragment();//9
         fragments.add(mmkvFragment);
 
-        TextReadFragment textReadFragment = new TextReadFragment();//11
+        TextReadFragment textReadFragment = new TextReadFragment();//10
         fragments.add(textReadFragment);
 
-        EncryFragment encryFragment = new EncryFragment();//12
+        EncryFragment encryFragment = new EncryFragment();//11
         fragments.add(encryFragment);
 
-        TiktokFragment tiktokFragment = new TiktokFragment();//13
+        TiktokFragment tiktokFragment = new TiktokFragment();//12
         fragments.add(tiktokFragment);
 
-        SecondTaobaoFragment secondTaobaoFragment = new SecondTaobaoFragment();//14
+        SecondTaobaoFragment secondTaobaoFragment = new SecondTaobaoFragment();//13
         fragments.add(secondTaobaoFragment);
 
-        RlvScrollFragment rlvScrollFragment = new RlvScrollFragment();//15
+        RlvScrollFragment rlvScrollFragment = new RlvScrollFragment();//14
         fragments.add(rlvScrollFragment);
 
-
-        LoadAnimFragment loadAnimFragment = new LoadAnimFragment();//16
+        LoadAnimFragment loadAnimFragment = new LoadAnimFragment();//15
         fragments.add(loadAnimFragment);
+
+        CountDowmFragment countDowmFragment = new CountDowmFragment();//16
+        fragments.add(countDowmFragment);
 
         MyFragmentVPAdapter vpAdapter = new MyFragmentVPAdapter(getSupportFragmentManager(), fragments);
         demoVp.setAdapter(vpAdapter);
@@ -161,6 +161,9 @@ public class DemoActivity extends MyBaseActivity {
                 break;
             case Const.GuoDemo.LoadAnimDemo:
                 showPosition(15);
+                break;
+            case Const.GuoDemo.CountDownDemo:
+                showPosition(16);
                 break;
         }
     }

@@ -30,4 +30,5 @@ public abstract class BaseRlvAdapter<T> extends BaseQuickAdapter<T, BaseViewHold
     protected void hide(View view){
         view.setVisibility(View.GONE);
     }
+
 }

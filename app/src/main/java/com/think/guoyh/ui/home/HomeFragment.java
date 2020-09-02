@@ -125,6 +125,7 @@ public class HomeFragment extends StateFragment {
         data.add(new MenuBean("淘宝二楼", Const.GuoDemo.SecondTaoDemo));
         data.add(new MenuBean("rlv滑动指定位置", Const.GuoDemo.RlvScrollDemo));
         data.add(new MenuBean("LoadAnim", Const.GuoDemo.LoadAnimDemo));
+        data.add(new MenuBean("列表倒计时", Const.GuoDemo.CountDownDemo));
         return data;
     }
 
