@@ -32,6 +32,8 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="n">
+        <activity android:name=".ui.demo.function.loadinganim.LoadAnimActivity"></activity>
+        <activity android:name=".ui.activity.TestActivity" />
         <activity android:name=".ui.demo.function.tiktok.TiktokActivity" />
         <activity android:name=".ui.suan.SuanActivity" />
         <activity android:name=".ui.demo.DemoActivity" />

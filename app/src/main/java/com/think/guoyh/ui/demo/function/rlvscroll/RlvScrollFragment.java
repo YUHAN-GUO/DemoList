@@ -80,6 +80,7 @@ public class RlvScrollFragment extends MyBaseFragment implements View.OnClickLis
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
+            //
             case R.id.tv_rvhuadong_GuanXing_1:
                 int position1 = (int) (Math.random() * 100);
                 Toast.makeText(getActivity(), "滑到：" + position1, Toast.LENGTH_SHORT).show();

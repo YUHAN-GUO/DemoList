@@ -25,7 +25,12 @@ public class LoadAnimFragment extends MyBaseFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_load_anim, container, false);
+        View inflate = inflater.inflate(R.layout.fragment_load_anim, container, false);
+        initView(inflate);
+        return inflate;
+    }
+
+    private void initView(View view){
     }
 
     @Override

@@ -75,13 +75,16 @@
         app:ImageType="round"
         />
     <com.think.guoyh.widget.rip.RippleLayout
-        android:layout_width="wrap_content"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_8"
         app:rippleColor="#3A000000"
         app:rippleStyle="borderless">
     <ImageView
-        android:layout_width="80dp"
+        android:layout_marginLeft="@dimen/dp_80"
+        android:layout_marginRight="@dimen/dp_80"
+        android:layout_width="match_parent"
         android:scaleType="centerCrop"
         android:layout_height="120dp"
         android:clickable="true"

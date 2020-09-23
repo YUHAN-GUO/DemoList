@@ -15,7 +15,6 @@ import com.think.guoyh.ui.demo.function.coord.CoordFragment;
 import com.think.guoyh.ui.demo.function.countdown.CountDowmFragment;
 import com.think.guoyh.ui.demo.function.encry.EncryFragment;
 import com.think.guoyh.ui.demo.function.index.IndexFragment;
-import com.think.guoyh.ui.demo.function.loadinganim.LoadAnimFragment;
 import com.think.guoyh.ui.demo.function.mmkv.MMKVFragment;
 import com.think.guoyh.ui.demo.function.move.MoveFragment;
 import com.think.guoyh.ui.demo.function.process.ProcessFragment;
@@ -25,6 +24,7 @@ import com.think.guoyh.ui.demo.function.save.SaveFragment;
 import com.think.guoyh.ui.demo.function.secondtaobao.SecondTaobaoFragment;
 import com.think.guoyh.ui.demo.function.sendnotifaction.SendNotifactionFragment;
 import com.think.guoyh.ui.demo.function.shadow.ShadowFragment;
+import com.think.guoyh.ui.demo.function.shorcut.ShortcutFragment;
 import com.think.guoyh.ui.demo.function.textread.TextReadFragment;
 import com.think.guoyh.ui.demo.function.tiktok.TiktokFragment;
 
@@ -101,11 +101,12 @@ public class DemoActivity extends MyBaseActivity {
         RlvScrollFragment rlvScrollFragment = new RlvScrollFragment();//14
         fragments.add(rlvScrollFragment);
 
-        LoadAnimFragment loadAnimFragment = new LoadAnimFragment();//15
-        fragments.add(loadAnimFragment);
 
-        CountDowmFragment countDowmFragment = new CountDowmFragment();//16
+        CountDowmFragment countDowmFragment = new CountDowmFragment();//15
         fragments.add(countDowmFragment);
+
+        ShortcutFragment shortcutFragment = new ShortcutFragment();//16
+        fragments.add(shortcutFragment);
 
         MyFragmentVPAdapter vpAdapter = new MyFragmentVPAdapter(getSupportFragmentManager(), fragments);
         demoVp.setAdapter(vpAdapter);
@@ -159,10 +160,10 @@ public class DemoActivity extends MyBaseActivity {
             case Const.GuoDemo.RlvScrollDemo:
                 showPosition(14);
                 break;
-            case Const.GuoDemo.LoadAnimDemo:
+            case Const.GuoDemo.CountDownDemo:
                 showPosition(15);
                 break;
-            case Const.GuoDemo.CountDownDemo:
+            case Const.GuoDemo.ShortCutDemo:
                 showPosition(16);
                 break;
         }

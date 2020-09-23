@@ -23,8 +23,8 @@ public interface Const {
         int TikTokDemo = 13;
         int SecondTaoDemo = 14;
         int RlvScrollDemo = 15;
-        int LoadAnimDemo = 16;
-        int CountDownDemo = 17;
+        int CountDownDemo = 16;
+        int ShortCutDemo = 17;
     }
 
     interface SuanDemo {
