@@ -25,6 +25,7 @@ public interface Const {
         int RlvScrollDemo = 15;
         int CountDownDemo = 16;
         int ShortCutDemo = 17;
+        int FishDemo = 18;
     }
 
     interface SuanDemo {

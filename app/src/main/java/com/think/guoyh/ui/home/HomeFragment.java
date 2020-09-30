@@ -126,6 +126,7 @@ public class HomeFragment extends StateFragment {
         data.add(new MenuBean("rlv滑动指定位置", Const.GuoDemo.RlvScrollDemo));
         data.add(new MenuBean("列表倒计时", Const.GuoDemo.CountDownDemo));
         data.add(new MenuBean("长按图标显示快捷方式", Const.GuoDemo.ShortCutDemo));
+        data.add(new MenuBean("鱼", Const.GuoDemo.FishDemo));
         return data;
     }
 

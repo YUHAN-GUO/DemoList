@@ -27,6 +27,7 @@ import com.think.guoyh.ui.demo.function.shadow.ShadowFragment;
 import com.think.guoyh.ui.demo.function.shorcut.ShortcutFragment;
 import com.think.guoyh.ui.demo.function.textread.TextReadFragment;
 import com.think.guoyh.ui.demo.function.tiktok.TiktokFragment;
+import com.think.guoyh.ui.demo.view.fish.FishFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -108,6 +109,9 @@ public class DemoActivity extends MyBaseActivity {
         ShortcutFragment shortcutFragment = new ShortcutFragment();//16
         fragments.add(shortcutFragment);
 
+        FishFragment fishFragment = new FishFragment();//17
+        fragments.add(fishFragment);
+
         MyFragmentVPAdapter vpAdapter = new MyFragmentVPAdapter(getSupportFragmentManager(), fragments);
         demoVp.setAdapter(vpAdapter);
     }
@@ -165,6 +169,10 @@ public class DemoActivity extends MyBaseActivity {
                 break;
             case Const.GuoDemo.ShortCutDemo:
                 showPosition(16);
+                break;
+
+            case Const.GuoDemo.FishDemo:
+                showPosition(17);
                 break;
         }
     }
